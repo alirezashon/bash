@@ -5,7 +5,7 @@ alias a="ls"
 log_info "info"
 log_warn "warn"
 log_error "error"
-
+test alirezaa
 
 result="192.168.1.101 GET /app/"
  
