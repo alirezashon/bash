@@ -411,7 +411,7 @@ echo ""
 
 echo -e "${GREEN}مثال 3: پاکسازی و فرمت‌دهی${NC}"
 echo "استخراج و فرمت‌دهی تاریخ و زمان:"
-awk '{print "تاریخ:", $1, "| زمان:", $2, "| پیام:", substr($0, index($0,$3))}' sample_log.txt | head -3
+awk '{print "تاریخ:", $1, "| زمان:", $2, "| پیام:", substr($0, index($0,$3), 12)}' sample_log.txt | head -3
 echo ""
 
 echo -e "${GREEN}مثال 4: گزارش آماری${NC}"
