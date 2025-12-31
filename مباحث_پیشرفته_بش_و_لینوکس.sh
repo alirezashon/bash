@@ -746,7 +746,7 @@ show_section "🔐 Permissions"
 show_example "6. تغییر دسترسی" "chmod +x script.sh"
 echo "  chmod +x: افزودن مجوز اجرا"
 echo ""
-
+chmod $r$w$x script.sh
 show_example "7. مشاهده دسترسی‌ها" "ls -l *.sh 2>/dev/null | head -2"
 ls -l *.sh 2>/dev/null | head -2 || echo "  ls -l: نمایش دسترسی‌ها"
 echo ""
