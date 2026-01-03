@@ -213,3 +213,14 @@ read flags:
 --follow-symlinks	پشتیبانی symlink
 -l	محدودکننده طول خطوط
 --posix	حالت استاندارد
+
+
+
+4️⃣ حالت‌های متداول STAT
+STAT	معنی
+R	Running (در حال اجرا)
+S	Sleeping (منتظر event)
+D	Uninterruptible sleep
+Z	Zombie (مرده ولی هنوز parent پاکش نکرده)
+T	Stopped (با سیگنال متوقف شده)
++	بخشی از foreground process group
